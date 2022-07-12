@@ -13,6 +13,7 @@
 		2477BF46287BA39800F2BB92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2477BF44287BA39800F2BB92 /* Main.storyboard */; };
 		2477BF48287BA39B00F2BB92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2477BF47287BA39B00F2BB92 /* Assets.xcassets */; };
 		2477BF4B287BA39B00F2BB92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2477BF49287BA39B00F2BB92 /* LaunchScreen.storyboard */; };
+		2477BF53287D21DC00F2BB92 /* SegmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2477BF52287D21DC00F2BB92 /* SegmentViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		2477BF47287BA39B00F2BB92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2477BF4A287BA39B00F2BB92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2477BF4C287BA39B00F2BB92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2477BF52287D21DC00F2BB92 /* SegmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				2477BF3E287BA39800F2BB92 /* AppDelegate.swift */,
 				2477BF40287BA39800F2BB92 /* SceneDelegate.swift */,
 				2477BF42287BA39800F2BB92 /* ViewController.swift */,
+				2477BF52287D21DC00F2BB92 /* SegmentViewController.swift */,
 				2477BF44287BA39800F2BB92 /* Main.storyboard */,
 				2477BF47287BA39B00F2BB92 /* Assets.xcassets */,
 				2477BF49287BA39B00F2BB92 /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2477BF53287D21DC00F2BB92 /* SegmentViewController.swift in Sources */,
 				2477BF43287BA39800F2BB92 /* ViewController.swift in Sources */,
 				2477BF3F287BA39800F2BB92 /* AppDelegate.swift in Sources */,
 				2477BF41287BA39800F2BB92 /* SceneDelegate.swift in Sources */,
