@@ -376,6 +376,36 @@
             </objects>
             <point key="canvasLocation" x="28.985507246376812" y="65.625"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="OmG-kG-7JG">
+            <objects>
+                <viewController id="kjR-zm-PKD" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ro0-cI-5dI">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="fAe-8a-oF7">
+                                <rect key="frame" x="0.0" y="44" width="414" height="359"/>
+                            </datePicker>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eUt-LK-IHZ">
+                                <rect key="frame" x="20" y="428" width="139" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="x2e-to-e47"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="fAe-8a-oF7" firstAttribute="height" secondItem="Ro0-cI-5dI" secondAttribute="height" multiplier="0.4" id="4Gj-gS-fY8"/>
+                            <constraint firstItem="fAe-8a-oF7" firstAttribute="top" secondItem="x2e-to-e47" secondAttribute="top" id="EIC-2X-4Z6"/>
+                            <constraint firstItem="fAe-8a-oF7" firstAttribute="leading" secondItem="x2e-to-e47" secondAttribute="leading" id="LHZ-nL-qPz"/>
+                            <constraint firstItem="fAe-8a-oF7" firstAttribute="trailing" secondItem="x2e-to-e47" secondAttribute="trailing" id="wKd-oo-sSR"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="69f-Wv-YR2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="979.71014492753636" y="77.678571428571431"/>
+        </scene>
         <!--Segment View Controller-->
         <scene sceneID="9dv-AV-pl4">
             <objects>
@@ -414,7 +444,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ACu-pN-5qj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="837.68115942028987" y="68.973214285714278"/>
+            <point key="canvasLocation" x="55" y="864"/>
         </scene>
     </scenes>
     <resources>

@@ -53,10 +53,12 @@ class ViewController: UIViewController {
         }
         
         
-        
+        // label에도 tag 값을 넣어 활용
 //        let countLabel = view.viewWithTag(sender.tag + 10) as! UILabel
 //        countLabel.text = "\(Int(countLabel.text!)! + 1)"
-        showAlertController()
+        
+        
+//        showAlertController()
     }
     
     //MARK: - Helpers
