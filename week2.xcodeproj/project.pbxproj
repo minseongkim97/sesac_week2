@@ -12,6 +12,7 @@
 		241AFB9B287FAF6700E620FB /* FSCalendar in Frameworks */ = {isa = PBXBuildFile; productRef = 241AFB9A287FAF6700E620FB /* FSCalendar */; };
 		241AFB9E287FAFE400E620FB /* TextFieldEffects in Frameworks */ = {isa = PBXBuildFile; productRef = 241AFB9D287FAFE400E620FB /* TextFieldEffects */; };
 		241AFBA1287FBE4100E620FB /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 241AFBA0287FBE4100E620FB /* IQKeyboardManagerSwift */; };
+		241AFBA42880E89200E620FB /* Transition.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 241AFBA32880E89100E620FB /* Transition.storyboard */; };
 		2477BF3F287BA39800F2BB92 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2477BF3E287BA39800F2BB92 /* AppDelegate.swift */; };
 		2477BF41287BA39800F2BB92 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2477BF40287BA39800F2BB92 /* SceneDelegate.swift */; };
 		2477BF43287BA39800F2BB92 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2477BF42287BA39800F2BB92 /* ViewController.swift */; };
@@ -23,6 +24,7 @@
 
 /* Begin PBXFileReference section */
 		241AFB81287F100100E620FB /* AnniversaryCalculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnniversaryCalculatorViewController.swift; sourceTree = "<group>"; };
+		241AFBA32880E89100E620FB /* Transition.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Transition.storyboard; sourceTree = "<group>"; };
 		2477BF3B287BA39800F2BB92 /* week2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = week2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2477BF3E287BA39800F2BB92 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2477BF40287BA39800F2BB92 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +51,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		241AFBA22880E88200E620FB /* Transition */ = {
+			isa = PBXGroup;
+			children = (
+				241AFBA32880E89100E620FB /* Transition.storyboard */,
+			);
+			path = Transition;
+			sourceTree = "<group>";
+		};
 		2477BF32287BA39800F2BB92 = {
 			isa = PBXGroup;
 			children = (
@@ -68,6 +78,7 @@
 		2477BF3D287BA39800F2BB92 /* week2 */ = {
 			isa = PBXGroup;
 			children = (
+				241AFBA22880E88200E620FB /* Transition */,
 				2477BF3E287BA39800F2BB92 /* AppDelegate.swift */,
 				2477BF40287BA39800F2BB92 /* SceneDelegate.swift */,
 				2477BF42287BA39800F2BB92 /* ViewController.swift */,
@@ -154,6 +165,7 @@
 				2477BF4B287BA39B00F2BB92 /* LaunchScreen.storyboard in Resources */,
 				2477BF48287BA39B00F2BB92 /* Assets.xcassets in Resources */,
 				2477BF46287BA39800F2BB92 /* Main.storyboard in Resources */,
+				241AFBA42880E89200E620FB /* Transition.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
